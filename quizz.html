@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h3 {
+            margin-top: 0;
+        }
+        button {
+            padding: 10px 15px;
+            margin-right: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+       
+        
+        .submit {
+            margin-top: 20px;
+            text-align: center;
+            background-color: antiquewhite;
+            padding: 10px;
+            border-radius: 5px;
+            color:black;
+            box-shadow: #f4f4f4 0 2px 5px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="question">
+    <h3>1. What is the full form of CSS?</h3>
+    <button class="correct"  onclick="print(this)">Cascading Style Sheets</button><br><br>
+    <button class="wrong"  onclick="option(this)">Computer Style Sheets</button><br><br>
+    <button class="wrong"  onclick="option(this)">Colorful Style Sheets</button><br><br>
+    <button class="wrong"  onclick="option(this)">Creative Style Sheets</button><br><br>
+    </div>
+    <div class="question">
+    <h3>2. What does HTML stand for?</h3>
+    <button class="correct"  onclick="print(this)">HyperText Markup Language</button><br><br>
+    <button class="wrong"  onclick="option(this)">HighText Markup Language</button><br><br>
+    <button class="wrong"  onclick="option(this)">HyperText Markdown Language</button><br><br>
+    <button class="wrong"  onclick="option(this)">HyperText Markup Link</button><br><br>
+    </div>
+    <div class="question">
+    <h3>3. Who is making the web standards?</h3>
+    <button class="correct"  onclick="print(this)">World Wide Web Consortium</button><br><br>
+    <button class="wrong"  onclick="option(this)">Web Standards Organization</button><br><br>
+    <button class="wrong"  onclick="option(this)">Web Development Standards</button><br><br>
+    <button class="wrong"  onclick="option(this)">Web Standards Group</button><br><br>
+    </div>
+    <div class="question">
+    <h3>4. Choose the correct HTML element for the largest heading?</h3>
+    <button class="correct"  onclick="print(this)">&lt;h1&gt;</button><br><br>
+    <button class="wrong"  onclick="option(this)">&lt;heading&gt;</button><br><br>
+    <button class="wrong"  onclick="option(this)">&lt;head&gt;</button><br><br>
+    <button class="wrong"  onclick="option(this)">&lt;h6&gt;</button><br><br>
+    </div>
+    <div class="question"> 
+    <h3>5. What is the correct HTML element for inserting a line break?</h3>
+    <button class="correct"  onclick="print(this)">&lt;br&gt;</button><br><br>
+    <button class="wrong"  onclick="option(this)">&lt;break&gt;</button><br><br>
+    <button class="wrong"  onclick="option(this)">&lt;linebreak&gt;</button><br><br>
+    <button class="wrong"  onclick="option(this)">&lt;lb&gt;</button><br><br>
+    </div>
+      <div class="submit">
+         <a href="nextpage.html">Submit</button>
+        </div>
+</body>
+<script>
+    function print(button){
+        
+        button.style.backgroundColor="green";
+
+    }
+    function option(button){
+        
+        button.style.backgroundColor="red";
+    }
+</script>
+</html>
